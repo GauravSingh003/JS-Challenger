@@ -1,0 +1,10 @@
+// Find the position of one string in another
+
+function foo(a){
+    let r = a.match("is");
+    return r;
+}
+console.log(foo("praise"));
+console.log(foo("risky"));
+console.log(foo("paris"));
+
