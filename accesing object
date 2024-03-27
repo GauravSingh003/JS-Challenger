@@ -1,0 +1,12 @@
+//  Accessing object properties one
+
+function myFunction(obj) {
+  return obj.country
+}
+
+myFunction({ continent: 'Asia', country: 'Japan' })
+Expected
+'Japan'
+myFunction({ country: 'Sweden', continent: 'Europe' })
+Expected
+'Sweden'
