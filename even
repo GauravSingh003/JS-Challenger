@@ -1,0 +1,15 @@
+// Check if a number is even ?
+
+function myFunction(a){
+let n = a%2 == 0;
+if(a = n){
+return true;
+}
+else{
+return false;
+}
+}
+console.log(myFunction(10));
+console.log(myFunction(5));
+console.log(myFunction(7));
+console.log(myFunction(-4));
