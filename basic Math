@@ -1,0 +1,10 @@
+// Basic JavaScript math operators
+
+function myFunction( a, b, c, d, e, f )
+{
+let sum = (a + b) - c;
+let ml = (sum * d)/e;
+let pwr = Math.pow(ml,f);
+return pwr;
+}
+console.log(myFunction(6,5,4,3,2,1));
