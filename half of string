@@ -1,0 +1,6 @@
+// Extract first half of string
+
+function myFunction(a){
+let n = a.length;
+return a.substring(0,n/2);
+}
