@@ -1,0 +1,14 @@
+// return true or false
+
+let even = a%2 == 0;
+    if(a = even){
+        return true
+    }
+    else{
+        return false; 
+    }
+
+console.log(myFunction(10))
+console.log(myFunction(-4))
+console.log(myFunction(5))
+console.log(myFunction(-111))
