@@ -7,7 +7,7 @@ let even = a%2 == 0;
     else{
         return false; 
     }
-
+// in short --  return a % 2 === 0
 console.log(myFunction(10))
 console.log(myFunction(-4))
 console.log(myFunction(5))
